@@ -1,19 +1,19 @@
 <?php
 /**
  * @package     CTF
- * @link      	https://github.com/jawittdesigns/
+ * @link      	https://github.com/bosharov/
  * @copyright   Copyright (c) 2014, Jason Witt
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
  * @since       1.0.0
  * @author      Jason Witt <contact@jawittdesigns.com>
  *
  * @wordpress-plugin
- * Plugin Name:       CSS-Tricks Functionality
- * Plugin URI:        https://github.com/jawittdesigns/
- * Description:       Custom functionality plugin for css-tricks.com
+ * Plugin Name:       AllSense Functionality
+ * Plugin URI:        https://github.com/bosharov/
+ * Description:       Custom functionality plugin for AllSense site
  * Version:           1.0.0
- * Author:            Jason Witt
- * Author URI:        http://jawittdesigns.com
+ * Author:            Andrew Bosharov
+ * Author URI:        https://allsense.in.ua
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:
@@ -124,6 +124,8 @@ if( !class_exists( 'CTF' ) ) {
 
 			require_once CTF_PLUGIN_DIR . 'includes/template-functions.php';
 			require_once CTF_PLUGIN_DIR . 'includes/class-ctf-init.php';
+
+			require_once CTF_PLUGIN_DIR . 'metaboxes/custom-fields.php';
 		}
 
 		/**

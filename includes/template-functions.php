@@ -73,12 +73,12 @@ function tumblrLinkBacks( $content ) {
 add_filter( 'the_content', 'tumblrLinkBacks' );
 
 function put_my_url() {
-	return ('/');
+	return get_bloginfo('url');
 }
 add_filter('login_headerurl', 'put_my_url');
 
 function put_my_title() {
-	return ('CSS-Tricks Lodge');
+	return get_bloginfo();
 }
 add_filter('login_headertitle', 'put_my_title');
 
