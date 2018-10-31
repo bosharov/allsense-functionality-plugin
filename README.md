@@ -1,1 +1,2 @@
-"# wp-functionality-plugin"
+# Подключение набора фнкционала
+Реализован набор функий для https://dvabobra.kh.ua/
