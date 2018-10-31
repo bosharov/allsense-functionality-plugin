@@ -23,7 +23,7 @@
 
 Инициализация классов осуществляется в includes/class-ctf-init.php
 
-##Дополнительно подключены:
+## Дополнительно подключены:
 1. Плагин CMB2 - A complete rewrite of [Custom Metaboxes and Fields for WordPress](https://github.com/WebDevStudios/Custom-Metaboxes-and-Fields-for-WordPress). To get started, please follow the examples in the included `example-functions.php` file and have a look at the [basic usage instructions](https://github.com/CMB2/CMB2/wiki/Basic-Usage).
 2. CMB2 Attached Posts Field - The post IDs are saved in an array, which can be rearranged by dragging and dropping posts in the attached posts column. Now incorporates the same search field as the [CMB2 Post Search field](https://github.com/WebDevStudios/CMB2-Post-Search-field).
 3. CMB2 Field Type: Google Maps - Google Maps field type for [CMB2](https://github.com/WebDevStudios/CMB2).
